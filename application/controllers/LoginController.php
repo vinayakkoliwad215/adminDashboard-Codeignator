@@ -69,8 +69,8 @@ class LoginController extends CI_Controller {
         //  FAST2SMS SEND OTP CODE
         // -------------------------
 
-        $apiKey = "";
-        $templateId = "";
+        $apiKey = "sqMM2Pvm7rz0antD1Fj4yg2HxunyvRK61ghKqHwbm5t82R1wK5rEt4uG2eAB";
+        $templateId = "1201166326005947037";
         $encrypted_password = base64_encode($password);
 
         $fields = array(
